@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-
+/* ====nav bar==== */
 nav {
     display: flex;
     justify-content: space-between;
@@ -84,7 +84,7 @@ nav a:hover {
     color: black;
 }
 
-
+/* ====header==== */
 header {
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ header img {
     margin-bottom: 20px;;
 }
 
-
+/* ====main content==== */
 .main-container {
     display: flex;
     flex-direction: row;
@@ -123,4 +123,20 @@ header img {
     line-height: 1.1;
 }
 
-.main-container section p
+
+/* ====bottom section==== */
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-container section {
+    margin: 5%;
+}
+
+.bottom-container ul {
+    list-style-type: square;
+}
+
+

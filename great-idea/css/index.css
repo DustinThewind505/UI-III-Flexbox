@@ -64,3 +64,190 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+
+/* =================== first page ========================= */
+/* ====top nav==== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 30px 60px 0 60px;
+}
+
+nav a{
+	text-decoration: none;
+}
+
+/* ====header==== */
+.header {
+	
+	}
+
+
+h1 {
+	font-size: 85px;
+	text-align: center;
+}
+
+.header a {
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	
+	text-decoration: none;
+}
+
+.header img {
+	width: 33%;
+}
+
+/* ====first section==== */
+.first-section  {
+	width: 80%;
+	display: flex;
+	border-top: 1px solid black;
+	margin: 0 12%;
+	padding: 20px;
+}
+
+#features {
+margin-right: 80px;
+}
+
+#about {
+	padding-left: 20px;
+}
+
+.first-section div {
+
+
+}
+
+/* ====second section==== */
+.second-section {
+margin: 10px 150px;
+}
+
+.second-section img {
+	width: 950px;
+}
+
+/* ===third section=== */
+.third-section {
+	width: 960px;
+	margin: 0 auto;
+	border-bottom: 1px solid black;
+}
+
+.third-section div {
+	display: inline-block;
+	width: 29%;
+	padding: 20px 10px 20px 0;
+	
+}
+
+/* ====contact section==== */
+.fourth-section {
+	width: 960px;
+	margin: 20px auto 0 auto;
+}
+
+address {
+	padding: 20px 0;
+}
+
+address a {
+	color: black;
+	text-decoration: none;
+	margin-top: 20px;
+}
+
+/* ====footer==== */
+footer {
+	width: 1000px;
+	margin:  0 500px;
+	padding-bottom: 200px;
+}
+
+
+
+
+
+
+
+/* =================== second page ========================= */
+
+/* ====nav bar==== */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 30px 60px 0 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+/* ====header==== */
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px;
+}
+
+header img {
+    margin-bottom: 20px;;
+}
+
+/* ====main content==== */
+.main-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin: 0 60px;
+}
+
+.main-container section {
+    width: 400px;
+    height: 200px;
+    background-color: lightgrey;
+    border: 1px solid black;
+    margin: 30px 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container section p {
+    padding: 0 40px;
+    line-height: 1.1;
+}
+
+
+/* ====bottom section==== */
+.bottom-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-container section {
+    margin: 5%;
+}
+
+.bottom-container ul {
+    list-style-type: square;
+}
