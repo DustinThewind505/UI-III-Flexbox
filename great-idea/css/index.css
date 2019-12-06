@@ -85,13 +85,6 @@ nav a{
 	text-decoration: none;
 }
 
-nav a:hover {
-	background-color: black;
-	border-radius: 3px;
-	cursor: url(http://cur.cursors-4u.net/food/foo-2/foo190.cur), default;
-	transition: background .5s; 
-  }
-
 /* ====header==== */
 .header {
 	display: flex;
